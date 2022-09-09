@@ -145,6 +145,8 @@ while start:
 
         if try_again_button.collidepoint(cursor_x, cursor_y) and lms_list:
             window_type = "game"
+            speed = 15
+            score = 0
             start_time = time()
 
     pygame.display.update()
